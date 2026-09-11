@@ -667,3 +667,6 @@ p:last-child{ margin-bottom:0; }
     align-items: flex-start;
   }
 }
+.post-meta span:first-child {
+  display: none;
+}
