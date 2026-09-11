@@ -666,11 +666,3 @@ p:last-child{ margin-bottom:0; }
     align-items: flex-start;
   }
 }
-
-.post-meta {
-  font-size: 0;
-}
-
-.post-meta .post-tag {
-  font-size: 12.5px;
-}
