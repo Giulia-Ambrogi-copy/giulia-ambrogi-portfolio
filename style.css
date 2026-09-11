@@ -658,7 +658,6 @@ p:last-child{ margin-bottom:0; }
 
   .work-grid{ grid-template-columns: 1fr; }
   .blog-grid{ grid-template-columns: 1fr; }
-
   .skills-list{ grid-template-columns: 1fr; }
 
   .footer-bottom{
@@ -667,6 +666,11 @@ p:last-child{ margin-bottom:0; }
     align-items: flex-start;
   }
 }
-.post-meta span:first-child {
-  display: none;
+
+.post-meta {
+  font-size: 0;
+}
+
+.post-meta .post-tag {
+  font-size: 12.5px;
 }
