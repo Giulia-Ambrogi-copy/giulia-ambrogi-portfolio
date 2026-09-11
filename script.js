@@ -94,13 +94,6 @@ function initFilters(){
 /* ==========================================================================
    BLOG
    ========================================================================== */
-function formatDate(iso, lang){
-  const d = new Date(iso + "T00:00:00");
-  return d.toLocaleDateString(lang === "it" ? "it-IT" : "en-GB", {
-    year: "numeric", month: "long", day: "numeric"
-  });
-}
-
 function renderBlogGrid(){
   const grid = document.getElementById("blogGrid");
   grid.innerHTML = "";
