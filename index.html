@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Giulia Ambrogi — Writer, Screenwriter &amp; Copywriter</title>
+<meta name="description" content="Giulia Ambrogi — Writer, Screenwriter &amp; Copywriter. Portfolio, sceneggiature, copywriting e blog.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,450&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#home" class="logo" aria-label="Giulia Ambrogi — home">GA</a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#about" data-i18n="nav.about">Chi sono</a>
+      <a href="#work" data-i18n="nav.work">Lavori</a>
+      <a href="#blog" data-i18n="nav.blog">Blog</a>
+      <a href="#contact" data-i18n="nav.contact">Contatti</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language switch">
+        <button type="button" class="lang-btn is-active" data-lang="it">IT</button>
+        <span class="lang-sep">|</span>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="home">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero wrap" id="hero">
+    <div class="hero-grid">
+      <div class="hero-name">
+        <p class="eyebrow-plain" data-i18n="hero.kicker">Scrittura, sceneggiatura, storytelling</p>
+        <h1 class="display-name">
+          Giulia<br>Ambrogi
+        </h1>
+        <p class="hero-role" data-i18n="hero.role">Writer — Screenwriter &amp; Copywriter</p>
+      </div>
+
+      <div class="hero-side">
+        <div class="avatar" aria-hidden="true">
+          <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="80" cy="80" r="79" fill="none" stroke="currentColor" stroke-width="1"/>
+            <text x="80" y="98" text-anchor="middle" font-family="Fraunces, serif" font-size="56" fill="currentColor">GA</text>
+          </svg>
+        </div>
+
+        <div class="logline">
+          <span class="logline-label">LOGLINE</span>
+          <p data-i18n="hero.bio">Da oltre dieci anni scrivo storie che devono reggere il montaggio, il minutaggio e il pubblico: documentari, spot, cortometraggi e lungometraggi per marchi come Xiaomi, National Geographic, Fox, Sky e Discovery — oltre a copy SEO, strategie social e dossier per bandi.</p>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#work" class="btn btn-primary" data-i18n="hero.cta_work">Guarda i lavori</a>
+          <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta_contact">Scrivimi</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about section" id="about">
+    <div class="wrap about-grid">
+      <div class="section-head">
+        <h2 data-i18n="about.title">Chi sono</h2>
+      </div>
+      <div class="about-body">
+        <p data-i18n="about.p1">Sono Giulia Ambrogi, scrivo in italiano e in inglese con la stessa naturalezza, muovendomi tra il linguaggio della sceneggiatura e quello della comunicazione di marca. Ho costruito narrazioni per documentari e docuserie, cortometraggi, lungometraggi e spot pubblicitari, collaborando con produzioni e broadcaster internazionali.</p>
+        <p data-i18n="about.p2">Oltre allo screenwriting, mi occupo di copywriting SEO, strategia di contenuti social e redazione di dossier e bandi: la stessa attenzione alla struttura e al ritmo che uso per un lungometraggio la applico a un piano editoriale o a un brief di comunicazione.</p>
+
+        <ul class="skills-list">
+          <li data-i18n="about.skill1">Screenwriting</li>
+          <li data-i18n="about.skill2">Long-form writing</li>
+          <li data-i18n="about.skill3">Editorial development</li>
+          <li data-i18n="about.skill4">Research &amp; Interviewing</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO ============ -->
+  <section class="work section section-alt" id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-i18n="work.title">Lavori selezionati</h2>
+        <p class="section-sub" data-i18n="work.subtitle">Una selezione di produzioni e progetti, per categoria.</p>
+      </div>
+
+      <div class="filters" id="filters" role="tablist" aria-label="Filtra per categoria">
+        <button class="filter-btn is-active" data-filter="all" data-i18n="filters.all">Tutti</button>
+        <button class="filter-btn" data-filter="spot" data-i18n="filters.spot">Spot &amp; Commercials</button>
+        <button class="filter-btn" data-filter="doc" data-i18n="filters.doc">Documentaries &amp; Docuseries</button>
+        <button class="filter-btn" data-filter="short" data-i18n="filters.short">Short Movies</button>
+        <button class="filter-btn" data-filter="feature" data-i18n="filters.feature">Feature Films</button>
+        <button class="filter-btn" data-filter="marketing" data-i18n="filters.marketing">Narrative Marketing</button>
+      </div>
+
+      <div class="work-grid" id="workGrid"><!-- generato via JS --></div>
+    </div>
+  </section>
+
+  <!-- ============ BLOG ============ -->
+  <section class="blog section" id="blog">
+    <div class="wrap">
+
+      <div id="blogList">
+        <div class="section-head">
+          <h2 data-i18n="blog.title">Blog</h2>
+          <p class="section-sub" data-i18n="blog.subtitle">Riflessioni su sceneggiatura, scrittura e cultura pop.</p>
+        </div>
+        <div class="blog-grid" id="blogGrid"><!-- generato via JS --></div>
+      </div>
+
+      <article id="articleView" class="article-view is-hidden">
+        <button class="back-link" id="articleBack" data-i18n="blog.back">← Torna al blog</button>
+        <p class="article-meta" id="articleMeta"></p>
+        <h2 id="articleTitle"></h2>
+        <div class="article-body" id="articleBody"></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact section section-alt" id="contact">
+    <div class="wrap contact-grid">
+      <div class="section-head">
+        <h2 data-i18n="contact.title">Contatti</h2>
+        <p class="section-sub" data-i18n="contact.subtitle">Per collaborazioni, progetti o semplicemente per dire ciao.</p>
+
+        <ul class="contact-list">
+          <li><span data-i18n="contact.email_label">Email</span> — <a href="mailto:giulia.ambrogi.copy@outlook.com">giulia.ambrogi.copy@outlook.com</a></li>
+          <li><span data-i18n="contact.linkedin_label">LinkedIn</span> — <a href="https://linkedin.giulia-ambrogi" target="_blank" rel="noopener">linkedin.giulia-ambrogi</a></li>
+          <li><span data-i18n="contact.phone_label">Telefono</span> — <a href="tel:+393201770801">+39 320 177 0801</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label for="cf-name" data-i18n="contact.form_name">Nome</label>
+        <input type="text" id="cf-name" name="name" required>
+
+        <label for="cf-email" data-i18n="contact.form_email">Email</label>
+        <input type="email" id="cf-email" name="email" required>
+
+        <label for="cf-message" data-i18n="contact.form_message">Messaggio</label>
+        <textarea id="cf-message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn btn-primary" data-i18n="contact.form_send">Invia messaggio</button>
+        <p class="form-note is-hidden" id="formNote" data-i18n="contact.form_success">Grazie! Il modulo è una demo statica: collega un servizio come Formspree o Netlify Forms per riceverlo davvero.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="tickerTrack">
+      <!-- generato via JS, duplicato per il loop infinito -->
+    </div>
+  </div>
+
+  <div class="wrap footer-bottom">
+    <p class="footer-name">Giulia Ambrogi</p>
+    <p class="footer-copy">&copy; <span id="year"></span> Giulia Ambrogi. <span data-i18n="footer.rights">Tutti i diritti riservati.</span></p>
+  </div>
+</footer>
+
+<script src="js/translations.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
