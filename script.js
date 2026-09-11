@@ -110,7 +110,6 @@ function renderBlogGrid(){
     card.className = "post-card";
     card.innerHTML = `
       <div class="post-meta">
-        <span>${formatDate(post.date, currentLang)}</span>
         <span class="post-tag">${post.lang}</span>
       </div>
       <h3>${currentLang === "it" ? post.title_it : post.title_en}</h3>
@@ -124,8 +123,7 @@ function renderBlogGrid(){
 function renderArticle(post){
   const view = document.getElementById("articleView");
   view.dataset.currentSlug = post.slug;
-  document.getElementById("articleMeta").textContent =
-    `${formatDate(post.date, currentLang)} · ${post.lang}`;
+  document.getElementById("articleMeta").textContent = post.lang;
   document.getElementById("articleTitle").textContent =
     currentLang === "it" ? post.title_it : post.title_en;
   document.getElementById("articleBody").innerHTML =
