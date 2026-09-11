@@ -199,9 +199,19 @@ p:last-child{ margin-bottom:0; }
   gap: 28px;
 }
 
-.avatar{
-  width: 108px;
-  color: var(--ink);
+.hero-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid var(--border-color, #333); /* Mantiene il cerchio esterno */
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ritaglia l'immagine in modo che riempia il cerchio senza deformarsi */
+  display: block;
 }
 
 .logline{
