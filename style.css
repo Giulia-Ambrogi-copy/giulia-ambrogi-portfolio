@@ -2,14 +2,14 @@
    TOKENS
    ========================================================================== */
 :root{
-  --ink:        #1c1815;
-  --ink-soft:   #4a433c;
-  --paper:      #f6f1e7;
-  --sand:       #e7ddc9;
-  --rust:       #9c3d24;
-  --gold:       #b98d3e;
-  --line:       rgba(28,24,21,0.15);
-  --line-soft:  rgba(28,24,21,0.09);
+  --ink: #111625;         /* Testo principale (Blu notte profondo / quasi nero) */
+  --ink-soft: #384252;    /* Testo secondario (Morbido blu scuro) */
+  --paper: #F9F8F6;       /* Sfondo principale (Bianco gesso caldo) */
+  --sand: #EFECE6;        /* Sfondo card/sezioni (Sabbia chiarissimo) */
+  --rust: #7A1C23;        /* Colore d'accento principale (Rosso velluto / Bordeaux) */
+  --gold: #A8323C;        /* Dettagli/Highlight (Rosso rubino acceso) */
+  --line: rgba(17,22,37,0.15);     /* Linee di separazione scure sfumate */
+  --line-soft: rgba(17,22,37,0.08);/* Linee più chiare */
 
   --font-display: "Fraunces", serif;
   --font-body: "Work Sans", sans-serif;
