@@ -264,7 +264,7 @@ p:last-child{ margin-bottom:0; }
 .btn-primary:hover{ 
   background: var(--gold); /* Tonalità lilla più scura al passaggio del mouse */
   border-color: var(--gold);
-  color: #ffffff;
+  color: #0000;
 }
 
 .btn-ghost{
