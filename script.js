@@ -184,17 +184,10 @@ function initMobileNav(){
 }
 
 /* ==========================================================================
-   CONTACT FORM (static demo)
+   CONTACT FORM
    ========================================================================== */
 function initContactForm(){
-  const form = document.getElementById("contactForm");
-  const note = document.getElementById("formNote");
-
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    note.classList.remove("is-hidden");
-    form.reset();
-  });
+  // Il modulo di contatto viene inoltrato direttamente a Formspree tramite l'HTML
 }
 
 /* ==========================================================================
