@@ -107,115 +107,47 @@ const WORKS = [
   {
     category: "spot",
     brand: "Xiaomi Global",
-    title_it: "Campagna globale di lancio prodotto",
-    title_en: "Global product launch campaign",
-    desc_it: "Copywriting e sviluppo narrativo per una serie di spot internazionali di lancio prodotto.",
-    desc_en: "Copywriting and narrative development for a series of international product-launch commercials."
+    title_it: "Cortometraggio",
+    title_en: "Short movie",
+    desc_it: "Scrittura soggetto e sceneggiatura per un cortometraggio girato attraverso prodotti cinematografici Xiaomi.",
+    desc_en: "Writing of the subject and the script for a short film shot on Xiaomi cinematic devices."
   },
+
   {
     category: "doc",
-    brand: "National Geographic",
-    title_it: "Docuserie — sviluppo editoriale",
-    title_en: "Docuseries — editorial development",
-    desc_it: "Ricerca, struttura narrativa e sceneggiatura per una docuserie a episodi.",
-    desc_en: "Research, narrative structure and screenwriting for an episodic docuseries."
+    brand: "Discovery - Crime+Investigation",
+    title_it: "Docuserie",
+    title_en: "Docuseries",
+    desc_it: "Coordinamento conduzione interviste, ricerca e sviluppo progettuale di una serie di documentari a tema true crime.",
+    desc_en: "Conducting interview coordination, research and project development for a true crime documentary series."
   },
-  {
-    category: "doc",
-    brand: "Discovery",
-    title_it: "Documentario — sceneggiatura e interviste",
-    title_en: "Documentary — screenwriting and interviews",
-    desc_it: "Conduzione interviste e stesura della sceneggiatura per un documentario a tema.",
-    desc_en: "Interview conduction and script writing for a feature-length documentary."
-  },
-  {
-    category: "spot",
-    brand: "Fox Group",
-    title_it: "Spot promozionale multipiattaforma",
-    title_en: "Multi-platform promotional spot",
-    desc_it: "Sceneggiatura per una serie di spot promozionali pensati per TV e digital.",
-    desc_en: "Script for a series of promotional spots built for TV and digital."
-  },
-  {
-    category: "short",
-    brand: "RoadShine Production",
-    title_it: "Cortometraggio — soggetto e sceneggiatura",
-    title_en: "Short film — story and screenplay",
-    desc_it: "Sviluppo del soggetto e sceneggiatura per un cortometraggio drammatico.",
-    desc_en: "Story development and screenplay for a dramatic short film."
-  },
+
   {
     category: "short",
     brand: "Monkey Business Production",
-    title_it: "Cortometraggio — sviluppo sceneggiatura",
-    title_en: "Short film — screenplay development",
-    desc_it: "Collaborazione alla sceneggiatura e alla struttura narrativa di un cortometraggio.",
-    desc_en: "Collaboration on the screenplay and narrative structure of a short film."
+    title_it: "Cortometraggio",
+    title_en: "Short film",
+    desc_it: "Sviluppo del soggetto e sceneggiatura per un cortometraggio di animazione.",
+    desc_en: "Story development and script for an animation short film."
   },
-  {
-    category: "feature",
-    brand: "InTreProduction",
-    title_it: "Lungometraggio — sviluppo sceneggiatura",
-    title_en: "Feature film — screenplay development",
-    desc_it: "Contributo alla sceneggiatura e allo sviluppo narrativo di un progetto di lungometraggio.",
-    desc_en: "Contribution to the screenplay and narrative development of a feature-length project."
-  },
-  {
-    category: "feature",
-    brand: "The Box Film",
-    title_it: "Lungometraggio — editing narrativo",
-    title_en: "Feature film — story editing",
-    desc_it: "Editing narrativo e revisione di sceneggiatura per un progetto cinematografico.",
-    desc_en: "Story editing and screenplay revision for a feature film project."
-  },
+   
   {
     category: "doc",
-    brand: "Sky",
-    title_it: "Produzione — sviluppo editoriale",
-    title_en: "Production — editorial development",
-    desc_it: "Sviluppo editoriale e sceneggiatura per contenuti factual.",
-    desc_en: "Editorial development and screenwriting for factual content."
-  },
-  {
-    category: "doc",
-    brand: "Crime+Investigation",
-    title_it: "Docuserie true crime — ricerca e sceneggiatura",
-    title_en: "True-crime docuseries — research and screenwriting",
-    desc_it: "Ricerca approfondita e sceneggiatura per una docuserie true crime.",
-    desc_en: "In-depth research and screenwriting for a true-crime docuseries."
-  },
-  {
-    category: "doc",
-    brand: "History Channel",
-    title_it: "Contenuto storico — sviluppo narrativo",
-    title_en: "Historical content — narrative development",
-    desc_it: "Sviluppo narrativo e sceneggiatura per contenuti a tema storico.",
-    desc_en: "Narrative development and screenwriting for history-themed content."
+    brand: "Discovery - History Channel",
+    title_it: "Contenuto storico seriale",
+    title_en: "Historical content series",
+    desc_it: "Coordinamento conduzione interviste, ricerca e sviluppo progettuale di una serie di documentari a tema true crime.",
+    desc_en: "Conducting interview coordination, research and project development for a true crime documentary series."
   },
   {
     category: "marketing",
-    brand: "OVS",
-    title_it: "Narrative marketing — contenuti di brand",
-    title_en: "Narrative marketing — brand content",
-    desc_it: "Strategia di contenuti e copywriting narrativo per campagne di brand.",
-    desc_en: "Content strategy and narrative copywriting for brand campaigns."
+    brand: "National Geographic x OVS",
+    title_it: "Pubblicità",
+    title_en: "Commercial",
+    desc_it: "Sviluppo editoriale e coordinamento narrativo.",
+    desc_en: "Editorial development and narrative coordination."
   },
-  {
-    category: "marketing",
-    brand: "BMW",
-    title_it: "Narrative marketing — storytelling di prodotto",
-    title_en: "Narrative marketing — product storytelling",
-    desc_it: "Sviluppo di storytelling di prodotto per contenuti promozionali.",
-    desc_en: "Product storytelling development for promotional content."
-  },
-  {
-    category: "doc",
-    brand: "Briciola.tv",
-    title_it: "Contenuti factual — sceneggiatura",
-    title_en: "Factual content — screenwriting",
-    desc_it: "Sceneggiatura e sviluppo editoriale per contenuti factual online.",
-    desc_en: "Screenwriting and editorial development for online factual content."
-  }
+
 ];
 
 /* ---------------------------------------------------------------------- */
@@ -223,14 +155,14 @@ const WORKS = [
 const POSTS = [
   {
     slug: "logline-perfetta",
-    date: "2026-02-14",
+    date: "06.04.2025",
     lang: "IT",
-    title_it: "Come costruire una logline che funziona",
-    title_en: "How to build a logline that works",
-    excerpt_it: "Una logline non è un riassunto: è una promessa. Ecco come scriverne una che regga davvero.",
-    excerpt_en: "A logline isn't a summary: it's a promise. Here's how to write one that actually holds up.",
-    body_it: "<p>Una logline non deve raccontare la trama: deve vendere la tensione. In una riga, chi è il protagonista, cosa vuole, cosa glielo impedisce e perché dovremmo restare a guardare.</p><p>Il primo errore è provare a comprimere l'intera trama in una frase. Il secondo è dimenticare il conflitto centrale. Una buona logline lascia fuori tutto ciò che non serve a far percepire la posta in gioco.</p><p>Quando scrivo una logline, la testo leggendola ad alta voce a chi non conosce il progetto: se dopo una frase capiscono perché la storia dovrebbe interessarli, ha funzionato.</p>",
-    body_en: "<p>A logline shouldn't tell the plot: it should sell the tension. In one line, who the protagonist is, what they want, what stands in the way, and why we should keep watching.</p><p>The first mistake is trying to compress the whole plot into a sentence. The second is forgetting the central conflict. A good logline leaves out everything that doesn't help the stakes land.</p><p>When I write a logline, I test it by reading it aloud to someone who doesn't know the project: if after one sentence they understand why the story should matter to them, it worked.</p>"
+    title_it: "Una vita in due tempi",
+    title_en: "A Life in Two Halves",
+    excerpt_it: "Diviso in due, con un “prima” e un “dopo”.",
+    excerpt_en: "Split in two, with a “before” and an “after.” ",
+    body_it: "<p>C’era un uomo che aveva vissuto tutta la sua vita come uno stronzo, ignorando le persone intorno a lui e pensando solo a se stesso. Poi ebbe un incidente con la moto. Talmente orribile da lasciarlo in coma per giorni. Intorno a lui, coloro che negli anni gli erano rimasti accanto nonostante tutto, avevano già iniziato a fare i conti con l'idea che non ce l'avrebbe fatta. E dal punto di vista medico, la situazione era tutt’altro che ottimista: il cervello sembrava non rispondere più, i danni erano seri. Il classico scenario in cui i dottori scelgono le parole con il contagocce per non dare vane speranze. La sua ex moglie descrisse quei giorni in un diario come un lento scorrere del tempo, un frangente che restava immobile mentre il resto proseguiva indisturbato. Lei andava al lavoro, sbrigava commissioni, rassettava la casa e, in quelle ore, in quei momenti, lui giaceva. Respirava. Ogni tanto le era capitato di vedere un leggero movimento della palpebra e considerarlo una gran vittoria. Ma, con immensa sorpresa di chiunque, un giorno del tutto in atteso, Claudio si risvegliò. Improvvisamente ottimista, anche quando i dottori continuavano a ripetergli che non avrebbe mai più camminato. Gentile, anche quando si accorse che molte delle persone a cui teneva erano state trattate così male da lui da averlo ignorato in degenza. Disponibile, ogni qualvolta gli venisse chiesto qualcosa. Oggi, quell’uomo, è un’altra persona. Lui stesso definisce la sua vita divisa in due, con un “prima” e un “dopo”. Lavorò duro negli anni a seguire, riuscendo a recuperare l’uso delle gambe. Ogni momento libero veniva scandito da gare sportive, come un incentivo a non mollare mai; in particolare, fu il canottaggio ad attirare la sua attenzione. Nelle infinite ore di fisioterapia, finì col pensare e ripensare alla possibilità di remare. Abbiamo approfondito i dettagli della sua vita in un documentario, attualmente in produzione con Roadshine Production.</p>",
+    body_en: "<p>There was a man who lived his life as an asshole, ignoring the people around him and thinking only about himself. One day, he had a motorcycle accident. It was so horrible that it left him in a coma for days. Around him, those who had stayed by his side over the years despite everything were coming to terms with the idea that he wouldn't make it. And from a medical standpoint, the situation was anything but optimistic: his brain seemed unresponsive, the damage was severe. The classic scenario where doctors weigh their words carefully so as not to give false hope. In a diary, his ex-wife described those days as a slow passage of time, a period frozen still while the rest of the world went on undisturbed. She went to work, ran errands, tidied the house, and during those hours, in those moments, he just laid there. Breathing. Every now and then, she happened to catch a slight eyelid movement and counted it as a huge victory. But to everyone's immense surprise, on an entirely unexpected day, Claudio woke up. Suddenly optimistic, even when the doctors kept telling him he would have never walked again. Kind, even when he realized that many of the people he cared about had been treated so badly by him that they ignored him during his hospital stay. Helpful, whenever he was asked for anything. Today, that man is a different person. He himself defines his life as split in two, with a before and an after. He worked hard in the years that followed, managing to regain the use of his legs. Every moment was marked by athletic competitions, serving as an incentive to never give up; in particular, it was rowing that caught his attention. During those endless hours of physical therapy, he thought over and over again about the possibility of becoming an athlete, against all odds. We explored the details of his life in a documentary, currently in production with Roadshine Production.</p>"
   },
   {
     slug: "documentario-vs-fiction",
