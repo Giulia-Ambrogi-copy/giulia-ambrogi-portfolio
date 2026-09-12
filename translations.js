@@ -148,6 +148,15 @@ const WORKS = [
     desc_en: "Editorial development and narrative coordination."
   },
 
+    {
+    category: "feature films",
+    brand: "The Box Film",
+    title_it: "Film lungometraggio",
+    title_en: "Feature film",
+    desc_it: "Sviluppo del soggetto e scrittura della sceneggiatura.",
+    desc_en: "Story development and script writing."
+  },
+
 ];
 
 /* ---------------------------------------------------------------------- */
