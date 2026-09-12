@@ -6,7 +6,7 @@
   --ink-soft: #384252;    /* Testo secondario (Morbido blu scuro) */
   --paper: #F9F8F6;       /* Sfondo principale (Bianco gesso caldo) */
   --sand: #EFECE6;        /* Sfondo card/sezioni (Sabbia chiarissimo) */
-  --rust: #BAAFD9;        /* Colore d'accento principale (Lilla) */
+  --rust: #CBC3E3;         /* Colore d'accento principale (Lilla) */
   --gold: #8471BC;        /* Dettagli/Highlight (Lilla scuro) */
   --line: rgba(17,22,37,0.15);     /* Linee di separazione scure sfumate */
   --line-soft: rgba(17,22,37,0.08);/* Linee più chiare */
@@ -258,10 +258,14 @@ p:last-child{ margin-bottom:0; }
 
 .btn-primary{
   background: var(--rust);
-  color: var(--paper);
+  color: var(--ink); /* Testo scuro per garantire leggibilità sul lilla chiaro */
   border-color: var(--rust);
 }
-.btn-primary:hover{ background: #7f3019; }
+.btn-primary:hover{ 
+  background: var(--gold); /* Tonalità lilla più scura al passaggio del mouse */
+  border-color: var(--gold);
+  color: #ffffff;
+}
 
 .btn-ghost{
   background: transparent;
