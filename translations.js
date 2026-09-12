@@ -14,13 +14,12 @@ const I18N = {
 
     "hero.kicker": "Scrittura, sceneggiatura, storytelling",
     "hero.role": "Writer — Screenwriter &amp; Copywriter",
-    "hero.bio": "Da oltre dieci anni scrivo storie che devono reggere il montaggio, il minutaggio e il pubblico: documentari, spot, cortometraggi e lungometraggi per marchi come Xiaomi, National Geographic, Fox, Sky e Discovery — oltre a copy SEO, strategie social e dossier per bandi.",
+    "hero.bio": "Sono una scrittrice con più di dieci anni d’esperienza passati a cercare storie dentro dinamiche che, apparentemente, non ne hanno una: dai cortometraggi d’animazione, ai documentari drammatici, dalle pubblicità, alla serialità true crime. Cercare nuove storie da raccontare e inventare nuove forme di narrazione dà un senso alla mia ambizione.",
     "hero.cta_work": "Guarda i lavori",
     "hero.cta_contact": "Scrivimi",
 
     "about.title": "Chi sono",
-    "about.p1": "Sono Giulia Ambrogi, scrivo in italiano e in inglese con la stessa naturalezza, muovendomi tra il linguaggio della sceneggiatura e quello della comunicazione di marca. Ho costruito narrazioni per documentari e docuserie, cortometraggi, lungometraggi e spot pubblicitari, collaborando con produzioni e broadcaster internazionali.",
-    "about.p2": "Oltre allo screenwriting, mi occupo di copywriting SEO, strategia di contenuti social e redazione di dossier e bandi: la stessa attenzione alla struttura e al ritmo che uso per un lungometraggio la applico a un piano editoriale o a un brief di comunicazione.",
+    "about.p1": "La mia specializzazione è la scrittura in tutte le sue forme: dall'editing di sceneggiature per progetti audiovisivi, alla redazione e ideazione di contenuti promozionali e dossier per produzioni, marketing e bandi di finanziamento nazionali e internazionali, fino al copywriting tecnico e creativo per articoli e social media. Grazie alla mia conoscenza professionale e alla curiosità approfondita per la cultura pop moderna e contemporanea, riesco a sviluppare contenuti mirati e strategicamente efficaci, sia in italiano che in inglese, per diversità di pubblico e piattaforme.",
     "about.skill1": "Screenwriting",
     "about.skill2": "Long-form writing",
     "about.skill3": "Editorial development",
@@ -62,13 +61,12 @@ const I18N = {
 
     "hero.kicker": "Writing, screenwriting, storytelling",
     "hero.role": "Writer — Screenwriter &amp; Copywriter",
-    "hero.bio": "For over a decade I've written stories built to survive the edit, the runtime and the audience: documentaries, commercials, short films and features for brands including Xiaomi, National Geographic, Fox, Sky and Discovery — alongside SEO copywriting, social strategy and grant dossiers.",
-    "hero.cta_work": "See the work",
+    "hero.bio": "I’m a writer with over a decade spent finding the story inside things that don't obviously have one. rom animated short films to dramatic documentaries, from commercials to true crime series. Searching for new stories to tell and inventing new forms of storytelling is what gives meaning to my ambition.",
+    "hero.cta_work": "Download my CV",
     "hero.cta_contact": "Get in touch",
 
     "about.title": "About",
-    "about.p1": "I'm Giulia Ambrogi. I write in Italian and English with equal ease, moving between the language of screenwriting and the language of brand communication. I've built narratives for documentaries and docuseries, short films, features and commercials, working with international productions and broadcasters.",
-    "about.p2": "Alongside screenwriting, I work on SEO copywriting, social content strategy and grant and dossier writing: the same attention to structure and pacing I bring to a feature, I bring to an editorial plan or a communication brief.",
+    "about.p1": "I specialize in writing in all its forms: from script editing for audiovisual projects, to drafting and creating promotional content and pitch dossiers for production companies, marketing campaigns, and national or international funding calls, through to technical and creative copywriting for articles and social media. Thanks to my professional expertise and deep curiosity about modern and contemporary pop culture, I develop targeted and strategically effective content, in both Italian and english, for diverse audiences and platforms. ",
     "about.skill1": "Screenwriting",
     "about.skill2": "Long-form writing",
     "about.skill3": "Editorial development",
