@@ -103,7 +103,7 @@ function renderBlogGrid(){
     card.className = "post-card";
     card.innerHTML = `
       <div class="post-meta">
-        <span class="post-tag">${post.lang}</span>
+        <span class="post-tag">${currentLang.toUpperCase()}</span>
       </div>
       <h3>${currentLang === "it" ? post.title_it : post.title_en}</h3>
       <p class="post-excerpt">${currentLang === "it" ? post.excerpt_it : post.excerpt_en}</p>
@@ -116,7 +116,7 @@ function renderBlogGrid(){
 function renderArticle(post){
   const view = document.getElementById("articleView");
   view.dataset.currentSlug = post.slug;
-  document.getElementById("articleMeta").textContent = post.lang;
+  document.getElementById("articleMeta").textContent = currentLang.toUpperCase();
   document.getElementById("articleTitle").textContent =
     currentLang === "it" ? post.title_it : post.title_en;
   document.getElementById("articleBody").innerHTML =
@@ -158,7 +158,6 @@ const BRANDS = [
 
 function initTicker(){
   const track = document.getElementById("tickerTrack");
-  // duplicate the list once so the CSS animation (translateX -50%) loops seamlessly
   const sequence = [...BRANDS, ...BRANDS];
   track.innerHTML = sequence.map(name => `<span class="ticker-item">${name}</span>`).join("");
 }
@@ -184,10 +183,40 @@ function initMobileNav(){
 }
 
 /* ==========================================================================
-   CONTACT FORM
+   CONTACT FORM (Fetch API for Formspree)
    ========================================================================== */
 function initContactForm(){
-  // Il modulo di contatto viene inoltrato direttamente a Formspree tramite l'HTML
+  const form = document.getElementById("contactForm");
+  if (!form) return;
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const btn = form.querySelector("button[type='submit']");
+    const originalText = btn.innerText;
+
+    btn.disabled = true;
+    btn.innerText = currentLang === "it" ? "Invio in corso..." : "Sending...";
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        alert(currentLang === "it" ? "Messaggio inviato con successo!" : "Message sent successfully!");
+        form.reset();
+      } else {
+        alert(currentLang === "it" ? "Si è verificato un errore. Riprova!" : "An error occurred. Please try again!");
+      }
+    } catch (err) {
+      alert(currentLang === "it" ? "Errore di connessione. Riprova!" : "Connection error. Please try again!");
+    } finally {
+      btn.disabled = false;
+      btn.innerText = originalText;
+    }
+  });
 }
 
 /* ==========================================================================
