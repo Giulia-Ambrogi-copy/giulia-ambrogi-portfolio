@@ -15,7 +15,7 @@ const I18N = {
     "hero.kicker": "Scrittura, sceneggiatura, storytelling",
     "hero.role": "Writer — Screenwriter &amp; Copywriter",
     "hero.bio": "Sono una scrittrice con più di dieci anni d’esperienza passati a cercare storie dentro dinamiche che, apparentemente, non ne hanno una: dai cortometraggi d’animazione, ai documentari drammatici, dalle pubblicità, alla serialità true crime. Cercare nuove storie da raccontare e inventare nuove forme di narrazione dà un senso alla mia ambizione.",
-    "hero.cta_work": "Guarda i lavori",
+    "hero.cta_work": "Scarica il mio CV",
     "hero.cta_contact": "Scrivimi",
 
     "about.title": "Chi sono",
