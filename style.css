@@ -7,7 +7,7 @@
   --paper: #F9F8F6;       /* Sfondo principale (Bianco gesso caldo) */
   --sand: #EFECE6;        /* Sfondo card/sezioni (Sabbia chiarissimo) */
   --rust: #6952AD;         /* Colore d'accento principale (Lilla) */
-  --gold: #8471BC;        /* Dettagli/Highlight (Lilla scuro) */
+  --gold: #ffff;        /* Dettagli/Highlight (Lilla scuro) */
   --line: rgba(17,22,37,0.15);     /* Linee di separazione scure sfumate */
   --line-soft: rgba(17,22,37,0.08);/* Linee più chiare */
 
@@ -242,7 +242,7 @@ p:last-child{ margin-bottom:0; }
 /* ==========================================================================
    BUTTONS
    ========================================================================== */
-.btn{
+.btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -256,23 +256,33 @@ p:last-child{ margin-bottom:0; }
   transition: background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease;
 }
 
-.btn-primary{
-  background: var(--rust);
-  color: var(--ink); /* Testo scuro per garantire leggibilità sul lilla chiaro */
-  border-color: var(--rust);
-}
-.btn-primary:hover{ 
-  background: var(--gold); /* Tonalità lilla più scura al passaggio del mouse */
-  border-color: var(--gold);
-  color: #c9c9c9;
+/* Pulsante Principale (Lilla) */
+.btn-primary {
+  background: var(--rust);        /* Sfondo lilla (#CBC3E3) */
+  color: var(--ink);              /* Testo scuro */
+  border-color: var(--rust);      /* Bordo lilla */
 }
 
-.btn-ghost{
+/* Inversione al passaggio del cursore */
+.btn-primary:hover {
+  background: transparent;        /* Sfondo trasparente/gesso */
+  color: var(--rust);              /* Testo lilla */
+  border-color: var(--rust);      /* Bordo lilla */
+}
+
+/* Pulsante Secondario (Trasparente/Scuro) */
+.btn-ghost {
   background: transparent;
   color: var(--ink);
   border-color: var(--ink);
 }
-.btn-ghost:hover{ background: var(--ink); color: var(--paper); }
+
+/* Inversione al passaggio del cursore */
+.btn-ghost:hover {
+  background: var(--ink);         /* Sfondo scuro */
+  color: var(--paper);            /* Testo chiaro */
+  border-color: var(--ink);
+}
 
 /* ==========================================================================
    SECTIONS (generic)
