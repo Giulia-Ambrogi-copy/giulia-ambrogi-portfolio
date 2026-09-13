@@ -61,7 +61,7 @@ const I18N = {
 
     "hero.kicker": "Writing, screenwriting, storytelling",
     "hero.role": "Writer — Screenwriter &amp; Copywriter",
-    "hero.bio": "I’m a writer with over a decade spent finding the story inside things that don't obviously have one. rom animated short films to dramatic documentaries, from commercials to true crime series. Searching for new stories to tell and inventing new forms of storytelling is what gives meaning to my ambition.",
+    "hero.bio": "I’m a writer with over a decade spent finding the story inside things that don't obviously have one: from animated short films to dramatic documentaries, from commercials to true crime series. Searching for new stories to tell and inventing new forms of storytelling is what gives meaning to my ambition.",
     "hero.cta_work": "Download my CV",
     "hero.cta_contact": "Get in touch",
 
