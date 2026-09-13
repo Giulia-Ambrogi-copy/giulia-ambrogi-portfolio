@@ -273,9 +273,9 @@ p:last-child{ margin-bottom:0; }
   border-color: var(--ink);
 }
 
-/* Pulsante Secondario Ghost: Sfondo trasparente, testo nero (#111625) */
+/* Pulsante Secondario Ghost: Sfondo bianco (#ffffff), testo nero (#111625) */
 .btn-ghost {
-  background: transparent;
+  background: #ffffff;
   color: var(--ink);
   border-color: var(--ink);
 }
